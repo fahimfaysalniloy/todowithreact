@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 class WorkList extends React.Component {
   state = {  }
@@ -29,6 +29,9 @@ class WorkList extends React.Component {
 
               )
             }
+            return (
+              <p></p>
+            )
           })}
 
         </ul>
